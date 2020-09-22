@@ -7,7 +7,7 @@
 
 header {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("roast-goose.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
@@ -51,11 +51,50 @@ footer {
   flex-direction: column;
   align-items: center;
   background: rgba(0, 0, 0, 0.95);
-  color:#fff;
+  color: #fff;
   padding: 5px 0;
 }
 
+.menu h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  text-align: center;
+}
+.menu h3 {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+  margin-top: 0.6em;
+  font-weight: bold;
+}
 
+.menu h4 {
+  font-size: 1em;
+}
+
+.menu p {
+  font-size: 0.6em;
+  margin-bottom: 0.3em;
+}
+
+.contact h2 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.contact h4 {
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+  text-align: center;
+}
 
 .title {
   color: #fff;
@@ -69,7 +108,7 @@ footer {
 
 .article {
   width: 90%;
-  margin: 4em auto;
+  margin: 2em auto;
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
