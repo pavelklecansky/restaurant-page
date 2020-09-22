@@ -101,7 +101,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3em;
+  font-size: 3vw;
   white-space: nowrap;
   text-transform: uppercase;
 }

@@ -4,12 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "debug": "webpack --devtool source-map ./src/index.js ./dist/main.js",
-    "webpackWatch": "webpack --watch"
-
-  
+    "webpackWatch": "webpack --watch",
+    "deployToGP": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
